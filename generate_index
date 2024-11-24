@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "<html><body><h1>System Info</h1><pre>$(uname -a)</pre></body></html>" > /var/lib/webgen/HTML/index.html
+
